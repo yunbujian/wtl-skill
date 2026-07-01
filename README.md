@@ -16,15 +16,25 @@
 
 ## 安装
 
+### macOS
+
+打开 Terminal（终端），粘贴这行命令，回车：
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/yunbujian/wtl-skill/main/install.sh | bash
 ```
 
-安装后在 Claude Code 里输入：
+### Windows
 
+打开 PowerShell（按 `Win + R`，输入 `powershell`，回车），粘贴这行命令，回车：
+
+```powershell
+irm https://raw.githubusercontent.com/yunbujian/wtl-skill/main/install.ps1 | iex
 ```
-/wtl
-```
+
+---
+
+安装后在 Claude Code 里输入 `/wtl` 开始使用。
 
 ## 这个 Skill 做什么
 
@@ -33,6 +43,8 @@ curl -fsSL https://raw.githubusercontent.com/yunbujian/wtl-skill/main/install.sh
 - **🚀 发表**：写完后，AI 帮你整理成可以发出去的格式（公众号、小红书、网页等）
 
 每次反馈都会标注对应的原理课内容，方便回溯理论。
+
+AI 只做追问和补充论据，最终写出来的，必须是你自己的语言。
 
 ## 关于这个课程
 
